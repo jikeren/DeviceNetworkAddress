@@ -1,9 +1,14 @@
-# DeviceNetworkAddress
+//
+//  UIDevice+IPAddress.h
+//  GatewayDemo
+//
+//  Created by LS on 05/05/2017.
+//  Copyright © 2017 LS. All rights reserved.
+//
 
-获取设备本地的IP、Gateway、DNS Server IP
+#import <UIKit/UIKit.h>      
 
-```
-UIDevice+IPAddress.h
+@interface UIDevice (IPAddress)
 
 /**
  * 获取设备本地的IP地址
@@ -22,5 +27,5 @@ UIDevice+IPAddress.h
  * @return 本地DNS服务器地址
  */
 - (NSString *)localDnsServerIpAddress;
-```
 
+@end
